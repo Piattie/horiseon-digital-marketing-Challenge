@@ -1,13 +1,16 @@
+/* Universal styles */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body styling */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +27,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Navigation menu styles */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +45,18 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Link styling */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph styling */
 p {
     font-size: 16px;
 }
 
+/* Hero image styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +66,7 @@ p {
     background-position: center;
 }
 
+/* Float classes for images */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +77,14 @@ p {
     margin-left: 25px;
 }
 
+/* Main content styling */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Section styling */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,15 +94,18 @@ main section {
     color: #ffffff;
 }
 
+/* Section image styling */
 main section img {
     max-height: 200px;
 }
 
+/* Section heading styling */
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Benefits section styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +117,26 @@ main section h2 {
     background-color: #2589bd;
 }
 
+/* Individual benefit sections */
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Benefit section headings */
 .benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Benefit section images */
 .benefits section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Footer styling */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +144,7 @@ footer {
     text-align: center;
 }
 
+/* Footer heading */
 footer h4 {
     font-size: 20px;
 }
